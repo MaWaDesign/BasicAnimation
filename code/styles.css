@@ -1,16 +1,3 @@
-
-
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  -webkit-animation: mymove 2s infinite;
-  -webkit-animation-play-state: paused;
-  animation: mymove 2s infinite;
-  animation-play-state: paused;
-}
-
 button {
     background-color: #e7e7e7;
     color: black;
@@ -18,28 +5,40 @@ button {
     display: inline-block;
     font-size: 16px;
     padding: 16px 16px;
-    border-radius: 50%;
+    border-radius: 30%;
+    width: 100px;
+    height: 50px;
 }
 
-@-webkit-keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
+nav {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    grid-area: nav;
+    font-family: ltc-italian-old-style-pro, verdana, serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 1px 1px 1px 1px;
+    padding: 0.5em 0.5em;
+
 }
 
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
+
+@-webkit-keyframes mymove1 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 500px;
+    }
 }
 
-  nav {
-      display: flex;
-      align-items: left;
-      justify-content: left;
-      grid-area: nav;
-      font-family: ltc-italian-old-style-pro, verdana, serif;
-      font-weight: 300;
-      font-style: normal;
-      margin: 1px 1px 1px 1px;
-      padding: 0.5em 0.5em;
-
-  }
+.animation1 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    animation: mymove1 2s infinite;
+    animation-play-state: paused;
+    background-image: url(../background/backgroundplaceholder.png);
+}
