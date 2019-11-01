@@ -8,22 +8,45 @@
     <script src="script.js"></script>
     <title>Animation</title>
 
-<audio id="effect1" src="/code/effect.wav"></audio>
-
+    <audio id="effect1" src="/code/effect.wav"></audio>
+    <audio id="effect2" src="/code/effect.wav"></audio>
+    <audio id="effect3" src="/code/effect.wav"></audio>
+    <audio id="effect4" src="/code/effect.wav"></audio>
+    <audio id="effect5" src="/code/effect.wav"></audio>
+    <audio id="effect6" src="/code/effect.wav"></audio>
+    <audio id="effect7" src="/code/effect.wav"></audio>
+    <audio id="effect8" src="/code/effect.wav"></audio>
+    <audio id="effect9" src="/code/effect.wav"></audio>
+    <audio id="effect10" src="/code/effect.wav"></audio>
 </head>
 
 <body>
 
 
     <nav>
-        <button type="button" id="start1" onclick="changeColor1();myPlayFunction1();playaudio()">Play</button>
-        <button onclick="myPauseFunction1();changeColorpause1();pauseaudio()">Pause</button>
-        <button onclick="restart1();pauseaudio()">Restart</button>
+        <button type="button" id="start1" onclick="play1()">Play</button>
+        <button onclick="pause1()">Pause</button>
+        <button onclick="resume1()">Resume</button>
+        <button onclick="restart1()">Restart</button>
         <h1>Animation 1</h1>
         <p>
     </nav>
 
     <div id="animation1" class="animation1"></div>
+
+
+
+    <nav>
+        <button type="button" id="start2" onclick="play2()">Play</button>
+        <button onclick="pause2()">Pause</button>
+        <button onclick="resume2()">Resume</button>
+        <button onclick="restart2()">Restart</button>
+        <h1>Animation 2</h1>
+        <p>
+    </nav>
+
+    <div id="animation2" class="animation2"></div>
+
 
 
 </body></html>

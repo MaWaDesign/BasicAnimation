@@ -38,7 +38,26 @@ nav {
     width: 200px;
     height: 300px;
     position: relative;
-    animation: mymove1 2s infinite;
+    animation-name:
+    animation-play-state: paused;
+    background-image: url(../background/backgroundplaceholder.png);
+}
+
+@-webkit-keyframes mymove2 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 100px;
+    }
+}
+
+.animation2 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    animation: mymove2 5s infinite;
     animation-play-state: paused;
     background-image: url(../background/backgroundplaceholder.png);
 }
