@@ -8,27 +8,30 @@
     <script src="script.js"></script>
     <title>Animation</title>
 
-    <audio id="effect1" src="/code/effect.wav"></audio>
-    <audio id="effect2" src="/code/effect.wav"></audio>
-    <audio id="effect3" src="/code/effect.wav"></audio>
-    <audio id="effect4" src="/code/effect.wav"></audio>
-    <audio id="effect5" src="/code/effect.wav"></audio>
-    <audio id="effect6" src="/code/effect.wav"></audio>
-    <audio id="effect7" src="/code/effect.wav"></audio>
-    <audio id="effect8" src="/code/effect.wav"></audio>
-    <audio id="effect9" src="/code/effect.wav"></audio>
-    <audio id="effect10" src="/code/effect.wav"></audio>
+    <audio id="effect1" src="../sound/effect.wav"></audio>
+    <audio id="effect2" src="../sound/effect.wav"></audio>
+    <audio id="effect3" src="../sound/effect.wav"></audio>
+    <audio id="effect4" src="../sound/effect.wav"></audio>
+    <audio id="effect5" src="../sound/effect.wav"></audio>
+    <audio id="effect6" src="../sound/effect.wav"></audio>
+    <audio id="effect7" src="../sound/effect.wav"></audio>
+    <audio id="effect8" src="../sound/effect.wav"></audio>
+    <audio id="effect9" src="../sound/effect.wav"></audio>
+    <audio id="effect10" src="../sound/effect.wav"></audio>
 </head>
 
 <body>
 
-
     <nav>
-        <button type="button" id="start1" onclick="play1()">Play</button>
-        <button onclick="pause1()">Pause</button>
-        <button onclick="resume1()">Resume</button>
-        <button onclick="restart1()">Restart</button>
-        <h1>Animation 1</h1>
+        <button class="button2" id="myswitch">Turn the animation on</button> <h1>Dance</h1>
+    </nav>
+            <img id="walk" class="walk" src="placeholder-01.svg">
+    <nav>
+        <button type="button" id="start1" onclick="play1(); return false;"  >Play</button>
+        <button  onclick="pause1(); return false;">Pause</button>
+        <button  onclick="resume1(); return false;">Resume</button>
+        <button  onclick="restart1(); return false;">Restart</button>
+        <h1>Fly</h1>
         <p>
     </nav>
 
@@ -37,16 +40,100 @@
 
 
     <nav>
-        <button type="button" id="start2" onclick="play2()">Play</button>
-        <button onclick="pause2()">Pause</button>
-        <button onclick="resume2()">Resume</button>
-        <button onclick="restart2()">Restart</button>
-        <h1>Animation 2</h1>
+        <button type="button" id="start2" onclick="play2(); return false;">Play</button>
+        <button onclick="pause2(); return false;">Pause</button>
+        <button onclick="resume2(); return false;">Resume</button>
+        <button onclick="restart2(); return false;">Restart</button>
+        <h1>Fade in/Fade out</h1>
         <p>
     </nav>
 
-    <div id="animation2" class="animation2"></div>
+    <div id="animation2" class="animation2" style="opacity: 0;"></div>
 
 
+
+    <nav>
+        <button type="button" id="start3" onclick="play3(); return false;">Play</button>
+        <button onclick="pause3(); return false;">Pause</button>
+        <button onclick="resume3(); return false;">Resume</button>
+        <button onclick="restart3(); return false;">Restart</button>
+        <h1>Change color</h1>
+        <p>
+    </nav>
+
+    <div id="animation3" class="animation3"></div>
+
+
+
+    <nav>
+        <button type="button" id="start4" onclick="play4(); return false;">Play</button>
+        <button onclick="pause4(); return false;">Pause</button>
+        <button onclick="resume4(); return false;">Resume</button>
+        <button onclick="restart4(); return false;">Restart</button>
+        <h1>Roll</h1>
+        <p>
+    </nav>
+
+    <div id="animation4" class="animation4"></div>
+
+
+    <nav>
+        <button type="button" id="start5" onclick="play5(); return false;">Play</button>
+        <button onclick="pause5(); return false;">Pause</button>
+        <button onclick="resume5(); return false;">Resume</button>
+        <button onclick="restart5(); return false;">Restart</button>
+        <h1>Spin</h1>
+        <p>
+    </nav>
+
+    <div id="animation5" class="animation5"></div>
+
+
+    <nav>
+        <button type="button" id="start6" onclick="play6(); return false;">Play</button>
+        <button onclick="pause6(); return false;">Pause</button>
+        <button onclick="resume6(); return false;">Resume</button>
+        <button onclick="restart6(); return false;">Restart</button>
+        <h1>Headstand</h1>
+        <p>
+    </nav>
+
+    <div id="animation6" class="animation6"></div>
+
+
+<nav>
+        <button type="button" id="start7" onclick="play7(); return false;">Play</button>
+        <button onclick="pause7(); return false;">Pause</button>
+        <button onclick="resume7(); return false;">Resume</button>
+        <button onclick="restart7(); return false;">Restart</button>
+        <h1>Jump</h1>
+        <p>
+    </nav>
+
+    <div id="animation7" class="animation7"></div>
+
+
+
+    <nav>
+        <button type="button" id="start8" onclick="play8(); return false;">Play</button>
+        <button onclick="pause8(); return false;">Pause</button>
+        <button onclick="resume8(); return false;">Resume</button>
+        <button onclick="restart8(); return false;">Restart</button>
+        <h1>Shake</h1>
+        <p>
+    </nav>
+
+    <div id="animation8" class="animation8"></div>
+
+    <nav>
+        <button type="button" id="start9" onclick="play9(); return false;">Play</button>
+        <button onclick="pause9(); return false;">Pause</button>
+        <button onclick="resume9(); return false;">Resume</button>
+        <button onclick="restart9(); return false;">Restart</button>
+        <h1>Blur out</h1>
+        <p>
+    </nav>
+
+    <div id="animation9" class="animation9"></div>
 
 </body></html>
